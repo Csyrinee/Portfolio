@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #eee;
+}
+img{
+  height: auto;
+  width:  350px;
+  margin-top: 8%;
+}
+.about{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h1{
+    margin-top: 12%;
+    padding-top: -10%;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 4%;
+    color: #4070f4;
+}
+
+.text p{
+  font-size: 16px; 
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin-bottom: 4%;
+}
+.contact{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #4070f4;
+    color: white;
+    border-radius: 40px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.contact:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}

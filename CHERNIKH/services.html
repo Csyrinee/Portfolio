@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <html lang="fr">
+        <head>     
+            <title>CHERNIKH</title>
+            <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta charset="utf-8">
+            <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="swiper-bundle.min.css">
+        </head>
+            <header>        
+                <div class="logo">
+                    <div class="vertical-line"></div>
+                    <div class="text_logo"> <p class="logo-heading">CHERNIKH</p>
+                    <p class="logo-subheading">TRANSPORT</p></div>
+                </div>
+                <nav>
+                    <ul>
+                        <a href="index.html">Qui sommes-nous ?</a>
+                        <a href="services.html">Nos services</a>
+                        <a href="contact.html">Contactez-nous</a>  
+                    </ul>
+                    <div id="icons"></div>
+                </nav>
+            </header>
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 900px;
+      height: 280px;
+      border-radius: 30px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .slide-content{
+    margin: 0 40px ;
+    }
+ .image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+} 
+
+ .card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    padding: 3px;
+} .overlay{
+    position: absolute;
+    margin-left: -42%;
+    margin-top: -27%;
+    left: 0;
+    top: 0;
+    height: 160px;
+    width: 283px;
+    background-color: #4b8cdf;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,.overlay::after{
+    content: '';
+    position: absolute;
+    margin-bottom: 7%;
+    right: 0;
+    bottom: -60px;
+    height: 40px;
+    width: 40px;
+    background-color: #4b8cdf ;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+
+h5{
+  color: #4b8cdf;
+  margin-top: 40%;
+  /* white-space : nowrap; */
+  text-align: center;
+}
+.card-image #card-img{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+} 
+.swiper-button-next {
+    margin-right: 10%; /* Ajoutez la marge souhaitée */
+}
+.swiper-button-prev {
+    margin-left: 10%; /* Ajoutez la marge souhaitée */
+}
+  </style>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                      <div class="card-image">
+                        <i class="fa-solid fa-truck-fast" style="color: #fff;  font-size: 3rem;"></i>
+                        <h5>Transport urgent</h5>
+                      </div>
+                    </div>
+            </div>
+          </div>
+
+      </div>
+      <div class="swiper-slide">
+        
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                      <div class="card-image">
+                        <i class="fa-solid fa-bus" style="color: #fff;  font-size: 3rem;"></i>
+                        <h5>Navettes</h5>
+                      </div>
+                    </div>
+            </div>
+          </div>
+ 
+      </div>
+      <div class="swiper-slide">
+
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                      <div class="card-image">
+                        <i class="fa-regular fa-calendar" style="color: #fff;  font-size: 3rem;"></i>
+                        <h5>Transport lié à l’événementiel</h5>
+                      </div>
+                    </div>
+            </div>
+          </div>
+
+      </div>
+      <div class="swiper-slide">
+        
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                      <div class="card-image">
+                        <i class="fa-solid fa-map-location-dot" style="color: #fff;  font-size: 3rem;"></i>
+                        <h5>Distribution à l'échelle régionale et nationale</h5>
+                      </div>
+                    </div>
+            </div>
+          </div>
+
+      </div>
+      <div class="swiper-slide">
+        
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+                  <div class="image-content">
+                    <span class="overlay"></span>
+                      <div class="card-image">
+                        <i class="fa-solid fa-pallet" style="color: #fff;  font-size: 3rem;"></i>
+                        <h5>Fret palettisé</h5>
+                      </div>
+                    </div>
+            </div>
+          </div>
+
+      </div>
+      <!-- <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div> -->
+    </div>
+   </div>
+   <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      keyboard: {
+        enabled: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
